@@ -66,6 +66,18 @@ header {
     width: 100%;
 }
 
+.product .hover-img {
+    display: none;
+}
+
+.product:hover .default-img {
+    display: none;
+}
+
+.product:hover .hover-img {
+    display: block;
+}
+
 .product span {
     font-size: 14px;
 }
