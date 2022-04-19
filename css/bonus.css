@@ -1,0 +1,11 @@
+.product .product-favorite {
+    display: none;
+}
+
+.product:hover .product-favorite {
+    display: block;
+}
+
+.product .product-favorite:hover {
+    color: red;
+}
