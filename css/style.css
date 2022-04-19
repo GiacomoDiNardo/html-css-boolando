@@ -102,3 +102,31 @@ header {
     background-color: green;
     padding: 5px;
 }
+
+footer {
+    background-color: black;
+    color: white;
+}
+
+.foot-container {
+    justify-content: space-between;
+    padding: 30px 0;
+}
+
+.left-foot a {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    padding-top: 10px;
+    padding-right: 5px;
+    font-size: 14px;
+}
+
+.right-foot .social {
+    padding: 10px 0;
+    font-size: 25px;
+}
+
+.social .fa-brands {
+    padding-right: 5px;
+}
