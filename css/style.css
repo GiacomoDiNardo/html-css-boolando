@@ -54,7 +54,21 @@ header {
 }
 
 .product {
-    background-color: lightgrey;
-    height: 300px;
     width: calc((100% - 40px) / 3);
+}
+
+.product img {
+    width: 100%;
+}
+
+.product span {
+    font-size: 14px;
+}
+
+.product .price {
+    color: red;
+}
+
+.product .old-price {
+    text-decoration: line-through;
 }
